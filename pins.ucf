@@ -1,0 +1,40 @@
+// Basys 2 pins configuration.
+
+NET "CLK_25MHZ" LOC = "B8";
+
+// NET "BTN<3>" LOC = "A7";
+// NET "BTN<2>" LOC = "M4";
+NET "BTN<1>" LOC = "C11";
+NET "BTN<0>" LOC = "G12";
+
+NET "SW<7>" LOC = "N3";
+NET "SW<6>" LOC = "E2";
+NET "SW<5>" LOC = "F3";
+NET "SW<4>" LOC = "G3";
+NET "SW<3>" LOC = "B4";
+NET "SW<2>" LOC = "K3";
+NET "SW<1>" LOC = "L3";
+NET "SW<0>" LOC = "P11";
+
+NET "led<7>" LOC = "G1" ;
+NET "led<6>" LOC = "P4" ;
+NET "led<5>" LOC = "N4" ;
+NET "led<4>" LOC = "N5" ;
+NET "led<3>" LOC = "P6" ;
+NET "led<2>" LOC = "P7" ;
+NET "led<1>" LOC = "M11";
+NET "led<0>" LOC = "M5" ;
+
+NET "SEG_LED<0>" LOC = "L14";
+NET "SEG_LED<1>" LOC = "H12";
+NET "SEG_LED<2>" LOC = "N14";
+NET "SEG_LED<3>" LOC = "N11";
+NET "SEG_LED<4>" LOC = "P12";
+NET "SEG_LED<5>" LOC = "L13";
+NET "SEG_LED<6>" LOC = "M12";
+//NET "dp" LOC = "N13"; # BAN_LEDk = 1, Signal name = DP
+
+NET "AN_LED<3>" LOC = "K14";
+NET "AN_LED<2>" LOC = "M13";
+NET "AN_LED<1>" LOC = "J12";
+NET "AN_LED<0>" LOC = "F12";
